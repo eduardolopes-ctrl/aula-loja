@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Minha loja</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <h1 class="navbar-brand">Minha loja</h1>
+                <button
+                 type="button" 
+                 class="navbar-toggler"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+</button>
+                <div class="collapse navbar-collapse"id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produtos">produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">sobre</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <selection>
+            <h2>bem-vindo à minha loja</h2>
+            <p>os melhores produtos com os melhores preços!</p>
+        </selection>
+        <selection>
+            <h2>nossos produtos</h2>
+            <article>
+                <img width="280 15"
+                    src="data:image/jpeg;base64,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"
+                    alt="">
+                <h3>chocolate branco</h3>
+                <p>o melhor chocolate</p>
+                <span>R$ 49,90</span>
+                <button> comprar</button>
+
+            </article>
+            <article>
+                <img width="280"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqSYH2Y1Q9gnhc09TSDzW_8n6JxYNiG-b539bIsatEiA&s=10"
+                    alt="">
+                <h3>chocolate belga</h3>
+                <p>o chocolate de qualidade superior</p>
+                <span>R$ 49,90</span>
+                <button> comprar</button>
+
+            </article>
+            <article>
+                <img width="280"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlll1s6LtMrqYvLmQFRg7WYRluuitvOUTrZ78OigQrew&s=10"
+                    alt="">
+                <h3>chocolate ruby</h3>
+                <p>chococlate rosa antural</p>
+                <span>R$ 49,90</span>
+                <button> comprar</button>
+
+            </article>
+
+        </selection>
+        <selection id="sobre">
+            <h2>sobre nos</h2>
+            <p>somos uma loja especializada em chocolate finos</p>
+            <h3>porque comprar com a gente?</h3>
+            <ul>
+                <li>entrega rapida</li>
+                <li>produtos selecionados</li>
+                <li>atendimento de qualidade</li>
+            </ul>
+            <h3>horario de funcionamento</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>dia</th>
+                        <th>horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>seg a sex</td>
+                        <td>8:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>sabado</td>
+                        <td>8:00 - 12:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </selection>
+        <section id="contato">
+            <h2>fale conosco</h2>
+            <form>
+                <div>
+                    <label for="nome">nome</label>
+                    <input type="text" id="nome" placeholder="nome">
+                </div>
+                <div>
+                    <label for="email">email</label>
+                    <input type="email" id="email" placeholder="voce@gmail.com">
+                </div>
+                <div>
+                    <label for="assunto">assunto</label>
+                    <select id="assunto">
+                        <option>duvida</option>
+                        <option>pedido</option>
+                        <option>reclamacao</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="mensagem">mensagem</label>
+                    <textarea id="mensagem" cols="30" rows="10" placeholder="digite sua mensagem">
+                </textarea>
+                </div>
+                <button>enviar</button>
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <address>rua dos chocolates, 125 montes claros</address>
+        <p>minha loja &copy; feito com amor por dudu</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</html>
